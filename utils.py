@@ -1,7 +1,9 @@
-def authenticate_user():
-    # Code for user authentication
-    pass
+# utils.py
 
-def send_notification(user):
-    # Code to send notifications to the user
-    pass
+def authenticate_user():
+    # Simulate user authentication
+    print("User authenticated.")
+
+def send_notification(message):
+    # Simulate sending a notification
+    print(f"Notification sent: {message}")

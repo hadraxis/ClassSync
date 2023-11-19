@@ -1,13 +1,14 @@
+# tests.py
 import unittest
 from schedule import organize_lessons, schedule_class
 
 class TestClassync(unittest.TestCase):
-    def test_lesson_organization(self):
-        # Test the organize_lessons function
+    def test_organize_lessons(self):
+        # Test logic for organizing lessons
         pass
 
     def test_schedule_class(self):
-        # Test the schedule_class function
+        # Test logic for scheduling classes
         pass
 
 if __name__ == '__main__':
