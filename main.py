@@ -66,12 +66,14 @@ def refresh_data():
 
 def populate_treeview(tree, student_data):
     for student in student_data:
-        tree.insert('', tk.END, values=(student['nome_do_aluno'], 
-                                        "Placeholder Warm Up", 
-                                        student['lesson_of_the_day'], 
-                                        "Placeholder Activity", 
-                                        "Placeholder Homework",
-                                        "Additional Details"))
+        tree.insert('', tk.END, values=(
+            student['nome_do_aluno'], 
+            student['warm_up'],
+            student['lesson_of_the_day'], 
+            student['activity'],
+            student['homework'],
+            student['details']
+        ))
 
 if __name__ == "__main__":
     main()
